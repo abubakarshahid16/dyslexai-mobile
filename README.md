@@ -13,7 +13,9 @@
 ![DyslexAI Hero](docs/assets/hero.png)
 
 ### 🎥 Watch the Demo
-![DyslexAI Demo Video](docs/assets/demo.mp4)
+<video src="docs/assets/demo.mp4" controls="controls" style="max-width: 100%;">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
