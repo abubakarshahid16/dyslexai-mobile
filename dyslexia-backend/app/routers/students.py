@@ -198,9 +198,11 @@ def get_student_history(
     if not student:
         raise HTTPException(status_code=404, detail="Student not found")
 
-    # Security: Students can only see their own history
-    if current_user.role == "student" and student.user_id != current_user.id:
-        raise HTTPException(status_code=403, detail="Not authorized to view this student's history")
+    # Security: Students can only see their own history. 
+    # If student.user_id is set, it MUST match. If not set (local legacy), we allow it.
+    if current_user.role == "student":
+        if student.user_id is not None and student.user_id != current_user.id:
+            raise HTTPException(status_code=403, detail="Not authorized to view this student's history")
 
     sessions = (
         db.query(SessionModel)
