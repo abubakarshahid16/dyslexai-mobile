@@ -13,9 +13,9 @@
 ![DyslexAI Hero](docs/assets/hero.png)
 
 ### 🎥 Watch the Demo
-<video src="https://github.com/abubakarshahid16/dyslexai-mobile/raw/main/docs/assets/demo.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+[![Watch the Video](docs/assets/hero.png)](https://github.com/abubakarshahid16/dyslexai-mobile/raw/main/docs/assets/demo.mp4)
+
+*Click the image above to download or play the video.*
 
 ---
 
