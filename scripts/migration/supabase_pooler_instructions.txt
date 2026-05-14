@@ -1,0 +1,14 @@
+If you see: could not translate host name "db....supabase.co" (or only IPv6 in nslookup)
+
+Your network may not resolve or route IPv6 to Supabase. Use the Session pooler URI (usually has IPv4).
+
+1) Supabase Dashboard -> your project -> Connect (or Settings -> Database).
+2) Open the "Session pooler" or "Connection pooling" tab (not "Direct connection").
+3) Copy the full postgresql:// URI (host often looks like aws-0-REGION.pooler.supabase.com, port 5432 or 6543).
+4) Put that URI in BOTH:
+     dyslexia-backend/.env   -> DATABASE_URL=...
+     scan-backend/.env       -> AUTH_DATABASE_URL=...
+   Add ?sslmode=require if the dashboard shows SSL required.
+5) Re-run: .\scripts\migration\complete_migration.ps1 -SupabaseRestore
+
+Do not commit .env files.

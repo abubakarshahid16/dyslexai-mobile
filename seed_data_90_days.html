@@ -1,0 +1,1899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>90-Day Exercise Seed Data</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f4f0; color: #1a1a18; padding: 24px 16px; }
+  h1 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+  .sub { font-size: 13px; color: #6b6b67; margin-bottom: 28px; }
+  .phase-block { margin-bottom: 32px; }
+  .phase-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .phase-badge { font-size: 11px; font-weight: 600; padding: 3px 12px; border-radius: 20px; }
+  .p1 { background: #E1F5EE; color: #0F6E56; }
+  .p2 { background: #EEEDFE; color: #534AB7; }
+  .p3 { background: #FAEEDA; color: #854F0B; }
+  .p4 { background: #EAF3DE; color: #3B6D11; }
+  .p5 { background: #FAECE7; color: #993C1D; }
+  .p6 { background: #E6F1FB; color: #185FA5; }
+  .phase-title { font-size: 15px; font-weight: 600; }
+  .day-card { background: #fff; border: 1px solid #e0dfd8; border-radius: 10px; margin-bottom: 8px; overflow: hidden; }
+  .day-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; cursor: pointer; user-select: none; }
+  .day-label { font-size: 13px; font-weight: 600; }
+  .day-types { font-size: 11px; color: #6b6b67; }
+  .chevron { font-size: 11px; color: #aaa; transition: transform 0.2s; }
+  .day-body { display: none; padding: 0 16px 14px; border-top: 1px solid #f0efe8; }
+  .day-body.open { display: block; }
+  .ex { margin-top: 10px; }
+  .ex-label { font-size: 11px; font-weight: 600; color: #6b6b67; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .ex-content { font-family: monospace; font-size: 12px; background: #1e1e1e; color: #d4d4d4; padding: 10px 14px; border-radius: 6px; white-space: pre-wrap; word-break: break-word; line-height: 1.6; }
+  .copy-all-btn { background: #1D9E75; color: #fff; border: none; border-radius: 8px; padding: 10px 22px; font-size: 13px; font-weight: 600; cursor: pointer; margin-bottom: 24px; }
+  .copy-all-btn:hover { background: #0F6E56; }
+  .copy-all-btn.done { background: #534AB7; }
+  .section-copy { background: var(--color-background-primary, #fff); border: 1px solid #e0dfd8; border-radius: 6px; padding: 4px 10px; font-size: 11px; cursor: pointer; color: #6b6b67; }
+  .section-copy:hover { color: #1a1a18; }
+  #full-data { display: none; }
+</style>
+</head>
+<body>
+
+<h1>Complete 90-Day Exercise Seed Data</h1>
+<div class="sub">All 90 days · 4 exercises each · 360 exercises total · Grades 1–3 vocabulary</div>
+
+<button class="copy-all-btn" id="mainCopyBtn" onclick="copyAll()">Copy all seed data (paste into AI)</button>
+
+<div id="full-data">
+## COMPLETE 90-DAY DYSLEXIA CURRICULUM SEED DATA
+## Based on Structured Literacy framework (IDA + National Reading Panel)
+## 6 Phases · 90 Days · 4 Exercises per Day · 360 Total Exercises
+## Vocabulary level: Flesch-Kincaid Grade 1–3 throughout
+
+=============================================================
+PHASE 1 — PHONOLOGICAL AWARENESS (Days 1–7)
+Exercise types: syllable_tap, rhyme_match, sound_identify, sound_blend
+=============================================================
+
+DAY 1
+Ex1 type=syllable_tap
+words: ["cat","basket","elephant","sun","banana"]
+correct_counts: [1,2,3,1,3]
+
+Ex2 type=rhyme_match
+pairs: [["cat","hat"],["dog","log"],["sun","run"],["big","pig"]]
+
+Ex3 type=sound_identify
+word: "sun" | target_sound: "s" | position: "first"
+options: ["s","b","m","t"] | answer: "s"
+
+Ex4 type=sound_blend
+phonemes: ["s","u","n"] | answer: "sun"
+options: ["sun","fun","gun","run"]
+
+---
+DAY 2
+Ex1 type=syllable_tap
+words: ["dog","rabbit","computer","mat","window"]
+correct_counts: [1,2,3,1,2]
+
+Ex2 type=rhyme_match
+pairs: [["map","cap"],["hen","ten"],["fish","dish"],["cake","lake"]]
+
+Ex3 type=sound_identify
+word: "mat" | target_sound: "m" | position: "first"
+options: ["m","p","t","n"] | answer: "m"
+
+Ex4 type=sound_blend
+phonemes: ["d","o","g"] | answer: "dog"
+options: ["dog","log","fog","bog"]
+
+---
+DAY 3
+Ex1 type=syllable_tap
+words: ["pen","butter","umbrella","hat","garden"]
+correct_counts: [1,2,3,1,2]
+
+Ex2 type=rhyme_match
+pairs: [["bell","sell"],["frog","bog"],["kite","night"],["blue","glue"]]
+
+Ex3 type=sound_identify
+word: "pin" | target_sound: "n" | position: "last"
+options: ["n","m","p","t"] | answer: "n"
+
+Ex4 type=sound_blend
+phonemes: ["c","a","t"] | answer: "cat"
+options: ["cat","bat","rat","sat"]
+
+---
+DAY 4
+Ex1 type=syllable_tap
+words: ["cup","happy","tomorrow","bed","blanket"]
+correct_counts: [1,2,3,1,2]
+
+Ex2 type=rhyme_match
+pairs: [["tree","bee"],["hop","top"],["man","fan"],["sheep","deep"]]
+
+Ex3 type=sound_identify
+word: "bag" | target_sound: "b" | position: "first"
+options: ["b","d","g","p"] | answer: "b"
+
+Ex4 type=sound_blend
+phonemes: ["h","a","t"] | answer: "hat"
+options: ["hat","bat","sat","mat"]
+
+---
+DAY 5
+Ex1 type=syllable_tap
+words: ["star","music","beautiful","clock","winter"]
+correct_counts: [1,2,3,1,2]
+
+Ex2 type=rhyme_match
+pairs: [["pig","big"],["nose","rose"],["ball","tall"],["rain","train"]]
+
+Ex3 type=sound_identify
+word: "cup" | target_sound: "p" | position: "last"
+options: ["p","b","t","k"] | answer: "p"
+
+Ex4 type=sound_blend
+phonemes: ["r","u","n"] | answer: "run"
+options: ["run","fun","sun","bun"]
+
+---
+DAY 6
+Ex1 type=syllable_tap
+words: ["fox","dinner","fantastic","ship","garden"]
+correct_counts: [1,2,3,1,2]
+
+Ex2 type=rhyme_match
+pairs: [["cake","make"],["night","light"],["book","look"],["green","seen"]]
+
+Ex3 type=sound_identify
+word: "ten" | target_sound: "t" | position: "first"
+options: ["t","d","n","s"] | answer: "t"
+
+Ex4 type=sound_blend
+phonemes: ["p","i","g"] | answer: "pig"
+options: ["pig","big","fig","dig"]
+
+---
+DAY 7
+Ex1 type=syllable_tap
+words: ["drum","funny","adventure","flag","rabbit"]
+correct_counts: [1,2,3,1,2]
+
+Ex2 type=rhyme_match
+pairs: [["bat","fat"],["moon","soon"],["pen","hen"],["slide","hide"]]
+
+Ex3 type=sound_identify
+word: "dog" | target_sound: "g" | position: "last"
+options: ["g","d","b","k"] | answer: "g"
+
+Ex4 type=sound_blend
+phonemes: ["b","u","s"] | answer: "bus"
+options: ["bus","fuss","must","just"]
+
+=============================================================
+PHASE 2 — PHONICS AND DECODING (Days 8–21)
+Exercise types: letter_sound_match, word_builder, odd_one_out, decode_word
+=============================================================
+
+DAY 8 — Simple CVC (short-a)
+Ex1 type=letter_sound_match
+letters: ["b","d","f","m","s"]
+sounds: ["buh","duh","fuh","muh","suh"]
+
+Ex2 type=word_builder
+letters: ["c","a","t"] | answer: "cat"
+distractor_letters: ["b","p"]
+
+Ex3 type=odd_one_out
+rule: "short-a CVC words"
+words: ["cat","bat","hat","bit","mat"] | odd: "bit"
+
+Ex4 type=decode_word
+word: "cap" | answer: "cap"
+options: ["cap","cup","cop","cab"]
+
+---
+DAY 9 — Simple CVC (short-i)
+Ex1 type=letter_sound_match
+letters: ["g","h","j","l","n"]
+sounds: ["guh","huh","juh","luh","nuh"]
+
+Ex2 type=word_builder
+letters: ["p","i","n"] | answer: "pin"
+distractor_letters: ["t","b"]
+
+Ex3 type=odd_one_out
+rule: "short-i CVC words"
+words: ["pin","sit","big","hit","sun"] | odd: "sun"
+
+Ex4 type=decode_word
+word: "bin" | answer: "bin"
+options: ["bin","ban","bun","bon"]
+
+---
+DAY 10 — Simple CVC (short-o, short-u)
+Ex1 type=letter_sound_match
+letters: ["p","r","t","v","w"]
+sounds: ["puh","ruh","tuh","vuh","wuh"]
+
+Ex2 type=word_builder
+letters: ["h","o","p"] | answer: "hop"
+distractor_letters: ["r","c"]
+
+Ex3 type=odd_one_out
+rule: "short-o CVC words"
+words: ["hop","top","mop","cop","tip"] | odd: "tip"
+
+Ex4 type=decode_word
+word: "mud" | answer: "mud"
+options: ["mud","mad","mid","mod"]
+
+---
+DAY 11 — Consonant blends (l-blends)
+Ex1 type=letter_sound_match
+letters: ["bl","cl","fl","gl","pl"]
+sounds: ["bluh","cluh","fluh","gluh","pluh"]
+
+Ex2 type=word_builder
+letters: ["f","l","a","g"] | answer: "flag"
+distractor_letters: ["b","p"]
+
+Ex3 type=odd_one_out
+rule: "words starting with l-blends"
+words: ["flag","clap","plan","ship","glad"] | odd: "ship"
+
+Ex4 type=decode_word
+word: "slip" | answer: "slip"
+options: ["slip","clip","flip","drip"]
+
+---
+DAY 12 — Consonant blends (r-blends)
+Ex1 type=letter_sound_match
+letters: ["br","cr","dr","fr","gr"]
+sounds: ["bruh","cruh","druh","fruh","gruh"]
+
+Ex2 type=word_builder
+letters: ["f","r","o","g"] | answer: "frog"
+distractor_letters: ["b","l"]
+
+Ex3 type=odd_one_out
+rule: "words starting with r-blends"
+words: ["frog","trip","grab","flag","drum"] | odd: "flag"
+
+Ex4 type=decode_word
+word: "crab" | answer: "crab"
+options: ["crab","grab","drab","brat"]
+
+---
+DAY 13 — Consonant blends (s-blends)
+Ex1 type=letter_sound_match
+letters: ["sc","sk","sl","sm","sn"]
+sounds: ["scuh","skuh","sluh","smuh","snuh"]
+
+Ex2 type=word_builder
+letters: ["s","t","e","p"] | answer: "step"
+distractor_letters: ["k","n"]
+
+Ex3 type=odd_one_out
+rule: "words starting with s-blends"
+words: ["step","swim","snap","clap","skin"] | odd: "clap"
+
+Ex4 type=decode_word
+word: "snip" | answer: "snip"
+options: ["snip","skip","slip","spin"]
+
+---
+DAY 14 — Consonant blends (end blends)
+Ex1 type=letter_sound_match
+letters: ["nd","nt","st","mp","lt"]
+sounds: ["nd","nt","st","mp","lt"]
+
+Ex2 type=word_builder
+letters: ["b","a","n","d"] | answer: "band"
+distractor_letters: ["s","t"]
+
+Ex3 type=odd_one_out
+rule: "words ending in a blend"
+words: ["hand","went","rust","stop","lamp"] | odd: "stop"
+
+Ex4 type=decode_word
+word: "wilt" | answer: "wilt"
+options: ["wilt","melt","bolt","belt"]
+
+---
+DAY 15 — Digraphs (ch, sh)
+Ex1 type=letter_sound_match
+letters: ["ch","sh","th","wh","ph"]
+sounds: ["chuh","shuh","thuh","whuh","fuh"]
+
+Ex2 type=word_builder
+letters: ["c","h","i","p"] | answer: "chip"
+distractor_letters: ["s","t"]
+
+Ex3 type=odd_one_out
+rule: "words with ch or sh digraph"
+words: ["chip","shed","much","shop","flag"] | odd: "flag"
+
+Ex4 type=decode_word
+word: "cash" | answer: "cash"
+options: ["cash","gash","rash","lash"]
+
+---
+DAY 16 — Digraphs (th, wh)
+Ex1 type=letter_sound_match
+letters: ["th (voiced)","th (unvoiced)","wh","ng","ck"]
+sounds: ["the","thin","when","ring","back"]
+
+Ex2 type=word_builder
+letters: ["t","h","a","t"] | answer: "that"
+distractor_letters: ["w","s"]
+
+Ex3 type=odd_one_out
+rule: "words with th digraph"
+words: ["that","thin","then","ship","with"] | odd: "ship"
+
+Ex4 type=decode_word
+word: "when" | answer: "when"
+options: ["when","then","wren","yen"]
+
+---
+DAY 17 — Mixed digraphs review
+Ex1 type=letter_sound_match
+letters: ["ch","sh","th","wh","ck"]
+sounds: ["chat","shop","this","whip","back"]
+
+Ex2 type=word_builder
+letters: ["s","h","o","p"] | answer: "shop"
+distractor_letters: ["c","t"]
+
+Ex3 type=odd_one_out
+rule: "words with a digraph"
+words: ["ship","chop","when","thin","flag"] | odd: "flag"
+
+Ex4 type=decode_word
+word: "chop" | answer: "chop"
+options: ["chop","shop","stop","prop"]
+
+---
+DAY 18 — Short vowel review
+Ex1 type=letter_sound_match
+letters: ["a","e","i","o","u"]
+sounds: ["cat","bed","sit","hop","cup"]
+
+Ex2 type=word_builder
+letters: ["d","r","e","s","s"] | answer: "dress"
+distractor_letters: ["c","t"]
+
+Ex3 type=odd_one_out
+rule: "short vowel words"
+words: ["cat","bed","sit","hop","cake"] | odd: "cake"
+
+Ex4 type=decode_word
+word: "blend" | answer: "blend"
+options: ["blend","blond","bland","blind"]
+
+---
+DAY 19 — CCVC and CVCC words
+Ex1 type=letter_sound_match
+letters: ["sp","tr","bl","nd","st"]
+sounds: ["spin","trip","blue","end","stop"]
+
+Ex2 type=word_builder
+letters: ["s","p","r","i","n","t"] | answer: "sprint"
+distractor_letters: ["b","k"]
+
+Ex3 type=odd_one_out
+rule: "CCVC or CVCC words"
+words: ["sprint","cloth","trust","black","cat"] | odd: "cat"
+
+Ex4 type=decode_word
+word: "crisp" | answer: "crisp"
+options: ["crisp","grips","trips","drips"]
+
+---
+DAY 20 — Blends and digraphs mixed
+Ex1 type=letter_sound_match
+letters: ["str","spr","spl","shr","thr"]
+sounds: ["street","spring","splash","shrink","three"]
+
+Ex2 type=word_builder
+letters: ["s","t","r","i","p"] | answer: "strip"
+distractor_letters: ["g","b"]
+
+Ex3 type=odd_one_out
+rule: "3-letter blend words"
+words: ["strip","three","split","shrug","flag"] | odd: "flag"
+
+Ex4 type=decode_word
+word: "shrub" | answer: "shrub"
+options: ["shrub","grub","scrub","drub"]
+
+---
+DAY 21 — Phase 2 review
+Ex1 type=letter_sound_match
+letters: ["ch","bl","str","nd","ck"]
+sounds: ["chin","blue","string","hand","back"]
+
+Ex2 type=word_builder
+letters: ["c","l","o","t","h"] | answer: "cloth"
+distractor_letters: ["b","r"]
+
+Ex3 type=odd_one_out
+rule: "words with consonant blends or digraphs"
+words: ["cloth","bright","shrink","sprint","cat"] | odd: "cat"
+
+Ex4 type=decode_word
+word: "thrust" | answer: "thrust"
+options: ["thrust","trust","truss","thirst"]
+
+=============================================================
+PHASE 3 — FLUENCY AND SYLLABLE TYPES (Days 22–35)
+Exercise types: syllable_split, syllable_sort, timed_flash_read, speed_sort
+=============================================================
+
+DAY 22 — 2-syllable closed syllables
+Ex1 type=syllable_split
+word: "basket" | answer: "bas-ket" | split_index: 3
+
+Ex2 type=syllable_sort
+words: ["me","cat","cake","rain"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["cat","dog","run","sit","big","hot","red","cup","map","ten"]
+time_seconds: 30
+
+Ex4 type=speed_sort
+words: ["sit","me","cake","rain","hot","go","bike","sleep"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 25
+
+---
+DAY 23 — 2-syllable words
+Ex1 type=syllable_split
+word: "pencil" | answer: "pen-cil" | split_index: 3
+
+Ex2 type=syllable_sort
+words: ["no","belt","time","boat"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["pen","lap","tip","fun","web","job","fix","rag","hub","led"]
+time_seconds: 30
+
+Ex4 type=speed_sort
+words: ["belt","no","time","coat","lid","she","smile","wait"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 25
+
+---
+DAY 24 — 2-syllable words continued
+Ex1 type=syllable_split
+word: "napkin" | answer: "nap-kin" | split_index: 3
+
+Ex2 type=syllable_sort
+words: ["be","dusk","note","clean"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["his","pop","but","jam","kit","fog","yell","dip","mud","van"]
+time_seconds: 30
+
+Ex4 type=speed_sort
+words: ["dusk","be","note","stream","risk","we","gave","faint"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 25
+
+---
+DAY 25 — 2-syllable words continued
+Ex1 type=syllable_split
+word: "dentist" | answer: "den-tist" | split_index: 3
+
+Ex2 type=syllable_sort
+words: ["hi","crisp","drove","speak"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["shop","then","chip","when","with","that","rich","such","path","both"]
+time_seconds: 30
+
+Ex4 type=speed_sort
+words: ["crisp","hi","drove","speak","twist","so","slide","teach"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 25
+
+---
+DAY 26 — 3-syllable words
+Ex1 type=syllable_split
+word: "umbrella" | answer: "um-brel-la" | split_index: 2
+
+Ex2 type=syllable_sort
+words: ["go","rift","pipe","field"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["flag","slip","frog","trip","clap","drum","swim","plan","bled","cram"]
+time_seconds: 30
+
+Ex4 type=speed_sort
+words: ["rift","go","pipe","field","cleft","by","throne","night"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 22
+
+---
+DAY 27 — 3-syllable words
+Ex1 type=syllable_split
+word: "computer" | answer: "com-pu-ter" | split_index: 3
+
+Ex2 type=syllable_sort
+words: ["fly","bold","chose","groan"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["sprint","cloth","trust","black","glide","snore","blend","crisp","swept","props"]
+time_seconds: 28
+
+Ex4 type=speed_sort
+words: ["bold","fly","chose","groan","sculpt","try","throne","toast"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 22
+
+---
+DAY 28 — 3-syllable words
+Ex1 type=syllable_split
+word: "tomorrow" | answer: "to-mor-row" | split_index: 2
+
+Ex2 type=syllable_sort
+words: ["she","lamp","stove","plain"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["basket","pencil","napkin","dentist","muffin","rabbit","goblin","velvet","cactus","mitten"]
+time_seconds: 28
+
+Ex4 type=speed_sort
+words: ["lamp","she","stove","plain","scalp","he","flute","peach"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 20
+
+---
+DAY 29 — 3-syllable words
+Ex1 type=syllable_split
+word: "fantastic" | answer: "fan-tas-tic" | split_index: 3
+
+Ex2 type=syllable_sort
+words: ["pro","yelp","truce","proud"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["umbrella","computer","tomorrow","fantastic","adventure","remember","important","together","another","between"]
+time_seconds: 26
+
+Ex4 type=speed_sort
+words: ["yelp","pro","truce","proud","scalp","we","quote","crowd"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 20
+
+---
+DAY 30 — Mixed syllable types
+Ex1 type=syllable_split
+word: "adventure" | answer: "ad-ven-ture" | split_index: 2
+
+Ex2 type=syllable_sort
+words: ["me","trust","graze","dream"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["baseball","sunshine","rainbow","moonlight","daydream","outside","inside","bedroom","airport","playground"]
+time_seconds: 26
+
+Ex4 type=speed_sort
+words: ["trust","me","graze","dream","script","she","quote","brain"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 20
+
+---
+DAY 31 — Compound words and vowel teams
+Ex1 type=syllable_split
+word: "baseball" | answer: "base-ball" | split_index: 4
+
+Ex2 type=syllable_sort
+words: ["no","wept","those","trail"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["flag","chip","step","drum","frog","clap","snip","grip","trip","slim"]
+time_seconds: 24
+
+Ex4 type=speed_sort
+words: ["wept","no","those","trail","blend","be","stoke","sneeze"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 18
+
+---
+DAY 32 — Compound words
+Ex1 type=syllable_split
+word: "sunshine" | answer: "sun-shine" | split_index: 3
+
+Ex2 type=syllable_sort
+words: ["by","belt","brake","greet"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["basket","winter","garden","rabbit","butter","dinner","pencil","blanket","napkin","velvet"]
+time_seconds: 24
+
+Ex4 type=speed_sort
+words: ["belt","by","brake","greet","swift","hi","smile","shield"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 18
+
+---
+DAY 33 — Mixed multisyllabic
+Ex1 type=syllable_split
+word: "rainbow" | answer: "rain-bow" | split_index: 4
+
+Ex2 type=syllable_sort
+words: ["do","strap","flute","creed"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["umbrella","computer","tomorrow","fantastic","adventure","remember","important","together","another","between"]
+time_seconds: 22
+
+Ex4 type=speed_sort
+words: ["strap","do","flute","creed","yelp","go","stove","toad"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 18
+
+---
+DAY 34 — Speed and fluency focus
+Ex1 type=syllable_split
+word: "moonlight" | answer: "moon-light" | split_index: 4
+
+Ex2 type=syllable_sort
+words: ["be","crimp","those","steam"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["baseball","sunshine","rainbow","moonlight","daydream","outside","inside","bedroom","airport","playground"]
+time_seconds: 20
+
+Ex4 type=speed_sort
+words: ["crimp","be","those","steam","sculpt","we","drove","float"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 15
+
+---
+DAY 35 — Phase 3 review
+Ex1 type=syllable_split
+word: "daydream" | answer: "day-dream" | split_index: 3
+
+Ex2 type=syllable_sort
+words: ["go","sculpt","stove","shield"]
+bins: ["open","closed","VCe","vowel-team"]
+answers: ["open","closed","VCe","vowel-team"]
+
+Ex3 type=timed_flash_read
+words: ["fantastic","adventure","umbrella","computer","tomorrow","remember","important","together","another","between"]
+time_seconds: 18
+
+Ex4 type=speed_sort
+words: ["sculpt","go","stove","shield","cleft","she","quote","groan"]
+bins: ["closed","open","VCe","vowel-team"]
+answers: ["closed","open","VCe","vowel-team","closed","open","VCe","vowel-team"]
+time_seconds: 15
+
+=============================================================
+PHASE 4 — VOCABULARY AND MORPHOLOGY (Days 36–49)
+Exercise types: morpheme_builder, definition_match, word_family_sort, fill_blank
+=============================================================
+
+DAY 36 — Root: PLAY
+Ex1 type=morpheme_builder
+root: "play" | affixes: ["re-","un-","-ed","-ing","-er","-ful"]
+valid_combinations: ["replay","played","playing","player","playful"]
+
+Ex2 type=definition_match
+pairs: [["joyful","full of joy"],["quickly","in a fast way"],["unhappy","not happy"],["teacher","one who teaches"]]
+
+Ex3 type=word_family_sort
+root: "play" | family: ["player","playing","replay","played","playful","playground"]
+non_family: ["clay","slay"]
+
+Ex4 type=fill_blank
+sentence: "The children were ____ in the park after school."
+options: ["playing","played","replay","player"] | answer: "playing"
+
+---
+DAY 37 — Root: HELP
+Ex1 type=morpheme_builder
+root: "help" | affixes: ["-ed","-ing","-er","-ful","-less","un-"]
+valid_combinations: ["helped","helping","helper","helpful","helpless","unhelpful"]
+
+Ex2 type=definition_match
+pairs: [["helpful","giving help"],["helpless","unable to help themselves"],["helper","a person who helps"],["unhelpful","not giving help"]]
+
+Ex3 type=word_family_sort
+root: "help" | family: ["helpful","helpless","helper","helping","helped","unhelpful"]
+non_family: ["yelp","kelp"]
+
+Ex4 type=fill_blank
+sentence: "She was very ____ when I dropped my books."
+options: ["helpful","helpless","helper","helping"] | answer: "helpful"
+
+---
+DAY 38 — Root: WORK
+Ex1 type=morpheme_builder
+root: "work" | affixes: ["-ed","-ing","-er","-shop","net-","hard-"]
+valid_combinations: ["worked","working","worker","workshop","network","hardwork"]
+
+Ex2 type=definition_match
+pairs: [["worker","someone who works"],["workshop","a place to make things"],["network","a connected group"],["overwork","to work too much"]]
+
+Ex3 type=word_family_sort
+root: "work" | family: ["worker","working","worked","workshop","teamwork","network"]
+non_family: ["fork","cork"]
+
+Ex4 type=fill_blank
+sentence: "My dad is a hard ____ who never takes a day off."
+options: ["worker","working","worked","workshop"] | answer: "worker"
+
+---
+DAY 39 — Root: KIND
+Ex1 type=morpheme_builder
+root: "kind" | affixes: ["-ness","-ly","-er","-est","un-","-hearted"]
+valid_combinations: ["kindness","kindly","kinder","kindest","unkind","kindhearted"]
+
+Ex2 type=definition_match
+pairs: [["kindness","being gentle and caring"],["unkind","not kind or caring"],["kindly","in a gentle way"],["kindhearted","naturally kind"]]
+
+Ex3 type=word_family_sort
+root: "kind" | family: ["kindness","kindly","kinder","unkind","kindest","kindhearted"]
+non_family: ["find","mind"]
+
+Ex4 type=fill_blank
+sentence: "It was very ____ of you to share your lunch."
+options: ["kind","kindness","unkind","kindly"] | answer: "kind"
+
+---
+DAY 40 — Root: READ
+Ex1 type=morpheme_builder
+root: "read" | affixes: ["-er","-ing","-able","re-","-ily","mis-"]
+valid_combinations: ["reader","reading","readable","reread","readily","misread"]
+
+Ex2 type=definition_match
+pairs: [["reader","someone who reads"],["readable","easy to read"],["reread","to read again"],["misread","to read incorrectly"]]
+
+Ex3 type=word_family_sort
+root: "read" | family: ["reader","reading","readable","reread","misread","readiness"]
+non_family: ["lead","bead"]
+
+Ex4 type=fill_blank
+sentence: "I had to ____ the sentence because I missed a word."
+options: ["reread","misread","reader","readable"] | answer: "reread"
+
+---
+DAY 41 — Root: WRITE
+Ex1 type=morpheme_builder
+root: "write" | affixes: ["-r","-ing","-ten","re-","hand-","type-"]
+valid_combinations: ["writer","writing","written","rewrite","handwrite","typewrite"]
+
+Ex2 type=definition_match
+pairs: [["writer","someone who writes"],["written","put down in writing"],["rewrite","to write again"],["handwrite","to write by hand"]]
+
+Ex3 type=word_family_sort
+root: "write" | family: ["writer","writing","written","rewrite","handwriting","typewriter"]
+non_family: ["kite","bite"]
+
+Ex4 type=fill_blank
+sentence: "She is a talented ____ who has published three books."
+options: ["writer","writing","written","rewrite"] | answer: "writer"
+
+---
+DAY 42 — Root: LIGHT
+Ex1 type=morpheme_builder
+root: "light" | affixes: ["-en","-ly","-house","day-","moon-","sun-"]
+valid_combinations: ["lighten","lightly","lighthouse","daylight","moonlight","sunlight"]
+
+Ex2 type=definition_match
+pairs: [["lighten","to make brighter or less heavy"],["lighthouse","a tower with a bright light"],["daylight","light from the sun during the day"],["sunlight","light that comes from the sun"]]
+
+Ex3 type=word_family_sort
+root: "light" | family: ["lighten","lightly","lighthouse","daylight","moonlight","sunlight"]
+non_family: ["night","tight"]
+
+Ex4 type=fill_blank
+sentence: "The ____ coming through the window woke me up early."
+options: ["sunlight","lighten","lightly","lighthouse"] | answer: "sunlight"
+
+---
+DAY 43 — Root: DARK
+Ex1 type=morpheme_builder
+root: "dark" | affixes: ["-en","-ness","-ly","-er","-est","pitch-"]
+valid_combinations: ["darken","darkness","darkly","darker","darkest","pitch-dark"]
+
+Ex2 type=definition_match
+pairs: [["darken","to make or become dark"],["darkness","the state of having no light"],["darkly","in a dark way"],["pitch-dark","completely dark"]]
+
+Ex3 type=word_family_sort
+root: "dark" | family: ["darken","darkness","darkly","darker","darkest","pitch-dark"]
+non_family: ["park","mark"]
+
+Ex4 type=fill_blank
+sentence: "After the power cut the room was in complete ____."
+options: ["darkness","darken","darkly","darker"] | answer: "darkness"
+
+---
+DAY 44 — Root: FRIEND
+Ex1 type=morpheme_builder
+root: "friend" | affixes: ["-ly","-ship","-less","-lier","-liest","un-"]
+valid_combinations: ["friendly","friendship","friendless","friendlier","friendliest","unfriendly"]
+
+Ex2 type=definition_match
+pairs: [["friendly","kind and pleasant"],["friendship","a close relationship between friends"],["unfriendly","not kind or welcoming"],["friendless","having no friends"]]
+
+Ex3 type=word_family_sort
+root: "friend" | family: ["friendly","friendship","friendless","friendlier","unfriendly","befriend"]
+non_family: ["fiend","bend"]
+
+Ex4 type=fill_blank
+sentence: "Their ____ started when they sat next to each other at school."
+options: ["friendship","friendly","unfriendly","friendless"] | answer: "friendship"
+
+---
+DAY 45 — Root: CARE
+Ex1 type=morpheme_builder
+root: "care" | affixes: ["-ful","-less","-fully","-lessly","-giver","over-"]
+valid_combinations: ["careful","careless","carefully","carelessly","caregiver","overcare"]
+
+Ex2 type=definition_match
+pairs: [["careful","taking great care"],["careless","not taking enough care"],["carefully","in a careful way"],["caregiver","a person who looks after someone"]]
+
+Ex3 type=word_family_sort
+root: "care" | family: ["careful","careless","carefully","carelessly","caregiver","uncaring"]
+non_family: ["bare","stare"]
+
+Ex4 type=fill_blank
+sentence: "Please be ____ when you cross the busy road."
+options: ["careful","careless","carelessly","caregiver"] | answer: "careful"
+
+---
+DAY 46 — Root: MOVE
+Ex1 type=morpheme_builder
+root: "move" | affixes: ["-ment","-r","re-","un-","-able","mis-"]
+valid_combinations: ["movement","mover","remove","unmoved","moveable","mismove"]
+
+Ex2 type=definition_match
+pairs: [["movement","the act of moving"],["remove","to take away"],["unmoved","not affected emotionally"],["moveable","able to be moved"]]
+
+Ex3 type=word_family_sort
+root: "move" | family: ["movement","mover","remove","unmoved","moveable","moving"]
+non_family: ["love","dove"]
+
+Ex4 type=fill_blank
+sentence: "The crowd watched the ____ of the large crane."
+options: ["movement","remove","mover","moveable"] | answer: "movement"
+
+---
+DAY 47 — Root: TURN
+Ex1 type=morpheme_builder
+root: "turn" | affixes: ["-ed","-ing","-around","re-","over-","u-"]
+valid_combinations: ["turned","turning","turnaround","return","overturn","u-turn"]
+
+Ex2 type=definition_match
+pairs: [["return","to come or go back"],["overturn","to flip upside down"],["turnaround","a change in direction or situation"],["u-turn","a full turn to go back the way you came"]]
+
+Ex3 type=word_family_sort
+root: "turn" | family: ["turned","turning","return","overturn","turnaround","u-turn"]
+non_family: ["burn","earn"]
+
+Ex4 type=fill_blank
+sentence: "She decided to ____ home before it got dark."
+options: ["return","overturn","turning","turnaround"] | answer: "return"
+
+---
+DAY 48 — Root: THINK
+Ex1 type=morpheme_builder
+root: "think" | affixes: ["-er","-ing","re-","over-","-able","un-"]
+valid_combinations: ["thinker","thinking","rethink","overthink","thinkable","unthinkable"]
+
+Ex2 type=definition_match
+pairs: [["thinker","a person who thinks deeply"],["rethink","to think about again"],["overthink","to think about too much"],["unthinkable","impossible to imagine"]]
+
+Ex3 type=word_family_sort
+root: "think" | family: ["thinker","thinking","rethink","overthink","thinkable","unthinkable"]
+non_family: ["drink","brink"]
+
+Ex4 type=fill_blank
+sentence: "The scientist was a brilliant ____ who solved hard problems."
+options: ["thinker","thinking","rethink","overthink"] | answer: "thinker"
+
+---
+DAY 49 — Phase 4 review
+Ex1 type=morpheme_builder
+root: "build" | affixes: ["-er","-ing","re-","-up","out-","-ings"]
+valid_combinations: ["builder","building","rebuild","build-up","outbuild","buildings"]
+
+Ex2 type=definition_match
+pairs: [["builder","someone who constructs things"],["rebuild","to build again after damage"],["buildings","structures people work or live in"],["build-up","a gradual increase"]]
+
+Ex3 type=word_family_sort
+root: "build" | family: ["builder","building","rebuild","buildings","built","build-up"]
+non_family: ["wild","child"]
+
+Ex4 type=fill_blank
+sentence: "After the storm they needed to ____ the broken fence."
+options: ["rebuild","builder","building","built"] | answer: "rebuild"
+
+=============================================================
+PHASE 5 — SYNTAX AND SPELLING RULES (Days 50–63)
+Exercise types: spelling_rule_sort, sentence_unscramble, spell_it, error_detect
+=============================================================
+
+DAY 50 — Rule: -ck after short vowel
+Ex1 type=spelling_rule_sort
+rule: "Use -ck right after a short vowel. Use -k after anything else."
+words: ["back","book","rock","week","duck","dark","thick","silk"]
+bins: ["-ck (after short vowel)","-k (after other)"]
+answers: ["-ck","-k","-ck","-k","-ck","-k","-ck","-k"]
+
+Ex2 type=sentence_unscramble
+words: ["went","She","store","to","the"] | answer: "She went to the store"
+
+Ex3 type=spell_it
+word: "duck" | audio_cue: "duck" | hint: "This bird swims in ponds"
+
+Ex4 type=error_detect
+sentence: "The children runned to the park." | error_word: "runned" | correction: "ran"
+
+---
+DAY 51 — Rule: -ck continued
+Ex1 type=spelling_rule_sort
+rule: "Use -ck right after a short vowel. Use -k after anything else."
+words: ["kick","task","clock","milk","trick","risk","black","flock"]
+bins: ["-ck (after short vowel)","-k (after other)"]
+answers: ["-ck","-k","-ck","-k","-ck","-k","-ck","-ck"]
+
+Ex2 type=sentence_unscramble
+words: ["loves","My","to","cat","sleep"] | answer: "My cat loves to sleep"
+
+Ex3 type=spell_it
+word: "trick" | audio_cue: "trick" | hint: "A clever way to fool someone"
+
+Ex4 type=error_detect
+sentence: "He dont want to go outside." | error_word: "dont" | correction: "doesn't"
+
+---
+DAY 52 — Rule: -ck review
+Ex1 type=spelling_rule_sort
+rule: "Use -ck right after a short vowel. Use -k after anything else."
+words: ["block","desk","stick","tank","check","silk","pack","hulk"]
+bins: ["-ck (after short vowel)","-k (after other)"]
+answers: ["-ck","-k","-ck","-k","-ck","-k","-ck","-k"]
+
+Ex2 type=sentence_unscramble
+words: ["baked","Mum","a","chocolate","cake"] | answer: "Mum baked a chocolate cake"
+
+Ex3 type=spell_it
+word: "check" | audio_cue: "check" | hint: "To look at something carefully"
+
+Ex4 type=error_detect
+sentence: "I seen a shooting star last night." | error_word: "seen" | correction: "saw"
+
+---
+DAY 53 — Rule: -tch after short vowel
+Ex1 type=spelling_rule_sort
+rule: "Use -tch right after a short vowel. Use -ch after anything else."
+words: ["watch","beach","fetch","bench","match","church","witch","coach"]
+bins: ["-tch (after short vowel)","-ch (after other)"]
+answers: ["-tch","-ch","-tch","-ch","-tch","-ch","-tch","-ch"]
+
+Ex2 type=sentence_unscramble
+words: ["plays","at","Tom","football","weekends"] | answer: "Tom plays football at weekends"
+
+Ex3 type=spell_it
+word: "fetch" | audio_cue: "fetch" | hint: "To go and get something"
+
+Ex4 type=error_detect
+sentence: "She catched the ball with one hand." | error_word: "catched" | correction: "caught"
+
+---
+DAY 54 — Rule: -tch continued
+Ex1 type=spelling_rule_sort
+rule: "Use -tch right after a short vowel. Use -ch after anything else."
+words: ["sketch","poach","switch","speech","hutch","march","ditch","lunch"]
+bins: ["-tch (after short vowel)","-ch (after other)"]
+answers: ["-tch","-ch","-tch","-ch","-tch","-ch","-tch","-ch"]
+
+Ex2 type=sentence_unscramble
+words: ["reading","is","books","Sam","always"] | answer: "Sam is always reading books"
+
+Ex3 type=spell_it
+word: "switch" | audio_cue: "switch" | hint: "You press it to turn on a light"
+
+Ex4 type=error_detect
+sentence: "The childs played in the garden all day." | error_word: "childs" | correction: "children"
+
+---
+DAY 55 — Rule: -tch review
+Ex1 type=spelling_rule_sort
+rule: "Use -tch right after a short vowel. Use -ch after anything else."
+words: ["pitch","torch","hatch","reach","patch","porch","latch","touch"]
+bins: ["-tch (after short vowel)","-ch (after other)"]
+answers: ["-tch","-ch","-tch","-ch","-tch","-ch","-tch","-ch"]
+
+Ex2 type=sentence_unscramble
+words: ["a","We","at","picnic","had","the","park"] | answer: "We had a picnic at the park"
+
+Ex3 type=spell_it
+word: "patch" | audio_cue: "patch" | hint: "A small piece of material used to cover a hole"
+
+Ex4 type=error_detect
+sentence: "I buyed a new pencil case yesterday." | error_word: "buyed" | correction: "bought"
+
+---
+DAY 56 — Rule: Doubling rule (1-1-1)
+Ex1 type=spelling_rule_sort
+rule: "Double the final consonant before -ing or -ed if the word has 1 syllable, 1 vowel, 1 consonant at the end."
+words: ["running","reading","sitting","sleeping","hitting","dreaming","clapping","writing"]
+bins: ["doubled consonant","no doubling needed"]
+answers: ["doubled","no doubling","doubled","no doubling","doubled","no doubling","doubled","no doubling"]
+
+Ex2 type=sentence_unscramble
+words: ["in","is","There","fridge","the","milk"] | answer: "There is milk in the fridge"
+
+Ex3 type=spell_it
+word: "running" | audio_cue: "running" | hint: "Moving fast on your feet"
+
+Ex4 type=error_detect
+sentence: "She was hopeing to win the race." | error_word: "hopeing" | correction: "hoping"
+
+---
+DAY 57 — Doubling rule continued
+Ex1 type=spelling_rule_sort
+rule: "Double the final consonant before -ing or -ed if: 1 syllable, 1 vowel, ends in 1 consonant."
+words: ["swimming","speaking","tapping","loading","wrapping","waiting","skipping","cleaning"]
+bins: ["doubled consonant","no doubling needed"]
+answers: ["doubled","no doubling","doubled","no doubling","doubled","no doubling","doubled","no doubling"]
+
+Ex2 type=sentence_unscramble
+words: ["the","fell","big","tree","ground","on","the"] | answer: "The big tree fell on the ground"
+
+Ex3 type=spell_it
+word: "skipping" | audio_cue: "skipping" | hint: "Jumping over a rope or moving with little hops"
+
+Ex4 type=error_detect
+sentence: "The dog was runing after the ball." | error_word: "runing" | correction: "running"
+
+---
+DAY 58 — Doubling rule review
+Ex1 type=spelling_rule_sort
+rule: "Double the final consonant before -ing or -ed: 1 syllable, 1 vowel, 1 final consonant."
+words: ["grabbed","painted","stopped","jumped","dripped","floated","patted","screamed"]
+bins: ["doubled consonant","no doubling needed"]
+answers: ["doubled","no doubling","doubled","no doubling","doubled","no doubling","doubled","no doubling"]
+
+Ex2 type=sentence_unscramble
+words: ["the","Our","went","on","family","holiday","beach"] | answer: "Our family went on the beach holiday"
+
+Ex3 type=spell_it
+word: "stopped" | audio_cue: "stopped" | hint: "No longer moving"
+
+Ex4 type=error_detect
+sentence: "He stoped at the red light and waited." | error_word: "stoped" | correction: "stopped"
+
+---
+DAY 59 — Rule: Drop-e before vowel suffix
+Ex1 type=spelling_rule_sort
+rule: "Drop the silent -e before a suffix that starts with a vowel (-ing, -ed, -er, -able)."
+words: ["making","making","hopeful","hoping","baking","baker","careful","writer"]
+bins: ["drop the e","keep the e"]
+answers: ["drop","drop","keep","drop","drop","drop","keep","drop"]
+
+Ex2 type=sentence_unscramble
+words: ["her","lost","in","Anna","key","the","garden"] | answer: "Anna lost her key in the garden"
+
+Ex3 type=spell_it
+word: "making" | audio_cue: "making" | hint: "Creating or building something"
+
+Ex4 type=error_detect
+sentence: "She was makeing a birthday card for her mum." | error_word: "makeing" | correction: "making"
+
+---
+DAY 60 — Drop-e rule continued
+Ex1 type=spelling_rule_sort
+rule: "Drop the silent -e before -ing, -ed, -er, -able. Keep it before -ful, -less, -ment."
+words: ["riding","rider","hopeless","hoping","loveable","lovely","writing","written"]
+bins: ["drop the e","keep the e"]
+answers: ["drop","drop","keep","drop","drop","keep","drop","drop"]
+
+Ex2 type=sentence_unscramble
+words: ["his","James","at","finished","dinner","table","the"] | answer: "James finished his dinner at the table"
+
+Ex3 type=spell_it
+word: "riding" | audio_cue: "riding" | hint: "Sitting on a horse or bicycle and moving"
+
+Ex4 type=error_detect
+sentence: "She loveed the way the flowers smelled." | error_word: "loveed" | correction: "loved"
+
+---
+DAY 61 — Drop-e rule review
+Ex1 type=spelling_rule_sort
+rule: "Drop the silent -e before a vowel suffix. Keep it before a consonant suffix."
+words: ["caring","careful","bravely","braving","useful","using","grading","graceful"]
+bins: ["drop the e","keep the e"]
+answers: ["drop","keep","keep","drop","keep","drop","drop","keep"]
+
+Ex2 type=sentence_unscramble
+words: ["cold","very","today","It","outside","is"] | answer: "It is very cold outside today"
+
+Ex3 type=spell_it
+word: "grading" | audio_cue: "grading" | hint: "Marking or rating something"
+
+Ex4 type=error_detect
+sentence: "The class was takeing a test when I arrived." | error_word: "takeing" | correction: "taking"
+
+---
+DAY 62 — Mixed spelling rules review
+Ex1 type=spelling_rule_sort
+rule: "Is this word spelled correctly? Sort into correct or incorrect."
+words: ["running","hopeing","stoped","making","siting","careful","loveing","riding"]
+bins: ["correct spelling","incorrect spelling"]
+answers: ["correct","incorrect","incorrect","correct","incorrect","correct","incorrect","correct"]
+
+Ex2 type=sentence_unscramble
+words: ["the","on","table","Put","your","books"] | answer: "Put your books on the table"
+
+Ex3 type=spell_it
+word: "sitting" | audio_cue: "sitting" | hint: "Resting on a seat or the floor"
+
+Ex4 type=error_detect
+sentence: "He was siting quietly at the back of the room." | error_word: "siting" | correction: "sitting"
+
+---
+DAY 63 — Phase 5 final review
+Ex1 type=spelling_rule_sort
+rule: "Apply the correct rule: -ck/-k, -tch/-ch, doubling, or drop-e."
+words: ["thick","witch","running","making","back","fetch","hopping","riding"]
+bins: ["correct as shown","would need changing to add -ing/-ed"]
+answers: ["correct","correct","correct","correct","correct","correct","correct","correct"]
+
+Ex2 type=sentence_unscramble
+words: ["birthday","Maya's","week","is","next","party"] | answer: "Maya's birthday party is next week"
+
+Ex3 type=spell_it
+word: "kitchen" | audio_cue: "kitchen" | hint: "The room in a house where you cook food"
+
+Ex4 type=error_detect
+sentence: "We was happy to hear the good news." | error_word: "was" | correction: "were"
+
+=============================================================
+PHASE 6 — READING COMPREHENSION (Days 64–90)
+Exercise types: passage_mcq, sequence_events, inference_question, main_idea_picker
+=============================================================
+
+DAY 64 — 2-sentence passages
+Ex1 type=passage_mcq
+passage: "Tom has a red bike. He rides it to school every day. One morning it had a flat tyre. Tom had to walk instead."
+question: "Why did Tom walk to school?"
+options: ["He was late","His bike had a flat tyre","He wanted exercise","School was close"]
+answer: "His bike had a flat tyre"
+
+Ex2 type=sequence_events
+sentences: ["Tom walked to school","Tom found his bike had a flat tyre","Tom rode his bike every day","Tom got a new tyre fitted"]
+correct_order: [2,1,0,3]
+
+Ex3 type=inference_question
+passage: "Sara looked at the dark clouds and grabbed her umbrella before leaving."
+question: "What did Sara think the weather would be?"
+options: ["Sunny","Rainy","Snowy","Windy"] | answer: "Rainy"
+
+Ex4 type=main_idea_picker
+passage: "Dogs are loyal animals. They protect their owners. Many dogs are trained to help people with disabilities."
+options: ["Dogs are dangerous","Dogs are very useful and loyal companions","Dogs like to eat","Dogs are easy to train"]
+answer: "Dogs are very useful and loyal companions"
+
+---
+DAY 65
+Ex1 type=passage_mcq
+passage: "Mia loves painting. She paints every day after school. Her favourite colours are blue and green."
+question: "When does Mia paint?"
+options: ["In the morning","Before school","After school","At the weekend"]
+answer: "After school"
+
+Ex2 type=sequence_events
+sentences: ["Mia cleaned her brushes","Mia chose blue and green paint","Mia sat at her desk","Mia finished her painting"]
+correct_order: [2,1,3,0]
+
+Ex3 type=inference_question
+passage: "Jack came home with muddy boots and a huge grin on his face."
+question: "What had Jack probably been doing?"
+options: ["Reading inside","Playing outside","Watching TV","Eating dinner"] | answer: "Playing outside"
+
+Ex4 type=main_idea_picker
+passage: "Cats sleep for many hours each day. They are clean animals who groom themselves. Cats can live for up to 20 years."
+options: ["Cats are lazy","Cats make interesting pets with unique habits","Cats are hard to train","Cats eat fish"]
+answer: "Cats make interesting pets with unique habits"
+
+---
+DAY 66
+Ex1 type=passage_mcq
+passage: "Ben found a small bird in his garden. Its wing was hurt. He put it in a box with soft cloth. Then he called an animal rescue centre."
+question: "Why did Ben put the bird in a box?"
+options: ["To keep it as a pet","To take it to school","To keep it safe while it was hurt","Because it was noisy"]
+answer: "To keep it safe while it was hurt"
+
+Ex2 type=sequence_events
+sentences: ["Ben called the rescue centre","Ben found the bird","Ben put soft cloth in the box","Ben put the bird in the box"]
+correct_order: [1,2,3,0]
+
+Ex3 type=inference_question
+passage: "The classroom was quiet. All the children had their heads down and pencils in their hands."
+question: "What were the children probably doing?"
+options: ["Having lunch","Writing a test or doing work","Playing a game","Listening to music"]
+answer: "Writing a test or doing work"
+
+Ex4 type=main_idea_picker
+passage: "Recycling helps reduce waste. It saves energy and protects natural resources. Everyone can help by sorting their rubbish."
+options: ["Rubbish is a big problem","Recycling is important and everyone can do it","Energy is expensive","Sorting rubbish is hard"]
+answer: "Recycling is important and everyone can do it"
+
+---
+DAY 67
+Ex1 type=passage_mcq
+passage: "Rosa wanted to bake a cake. She got out flour, eggs, butter, and sugar. She mixed them together and put the tin in the oven."
+question: "What did Rosa put in the oven?"
+options: ["Flour and eggs","A mixing bowl","A cake tin","Sugar and butter"]
+answer: "A cake tin"
+
+Ex2 type=sequence_events
+sentences: ["Rosa put the tin in the oven","Rosa got out the ingredients","Rosa mixed everything together","Rosa took the cake out to cool"]
+correct_order: [1,2,0,3]
+
+Ex3 type=inference_question
+passage: "Liam checked his watch three times in ten minutes and kept looking at the door."
+question: "How was Liam probably feeling?"
+options: ["Bored","Impatient or nervous","Happy","Tired"] | answer: "Impatient or nervous"
+
+Ex4 type=main_idea_picker
+passage: "Exercise keeps your heart healthy. It also makes your muscles strong. Even a short walk every day can make a big difference."
+options: ["Running is the best sport","Regular exercise is important for your health","You need to go to a gym","Exercise is hard work"]
+answer: "Regular exercise is important for your health"
+
+---
+DAY 68
+Ex1 type=passage_mcq
+passage: "The school trip was to the zoo. The children saw lions, elephants, and penguins. Their favourite part was feeding the giraffes."
+question: "What was the children's favourite part of the zoo trip?"
+options: ["Seeing the lions","Seeing the elephants","Feeding the giraffes","Watching the penguins"]
+answer: "Feeding the giraffes"
+
+Ex2 type=sequence_events
+sentences: ["The children fed the giraffes","The children got on the bus","The children arrived at the zoo","The children saw the penguins"]
+correct_order: [1,2,3,0]
+
+Ex3 type=inference_question
+passage: "After dinner, Grandma sat in her chair, closed her eyes, and her breathing slowed down."
+question: "What did Grandma probably do next?"
+options: ["Went for a walk","Fell asleep","Started cooking","Watched television"] | answer: "Fell asleep"
+
+Ex4 type=main_idea_picker
+passage: "Bees collect pollen from flowers. They use it to make honey back at the hive. Bees also help plants to grow by spreading the pollen."
+options: ["Bees make honey","Bees are very useful insects that help nature","Bees live in hives","Flowers need pollen"]
+answer: "Bees are very useful insects that help nature"
+
+---
+DAY 69
+Ex1 type=passage_mcq
+passage: "It was snowing outside. Leo put on his coat, scarf, and gloves. He ran outside to build a snowman with his sister."
+question: "Who did Leo build the snowman with?"
+options: ["His friend","His mum","His sister","His teacher"]
+answer: "His sister"
+
+Ex2 type=sequence_events
+sentences: ["Leo put on his gloves","Leo put on his coat","Leo built a snowman","Leo put on his scarf"]
+correct_order: [1,3,0,2]
+
+Ex3 type=inference_question
+passage: "Ella put on her best dress and brushed her hair carefully. She picked up a wrapped gift from the table."
+question: "Where was Ella probably going?"
+options: ["To school","To a birthday party","To the shops","To the park"] | answer: "To a birthday party"
+
+Ex4 type=main_idea_picker
+passage: "The sun is a star at the centre of our solar system. It gives us light and heat. Without the sun, there would be no life on Earth."
+options: ["The sun is very hot","The sun is essential for life on Earth","Stars are far away","Our solar system is large"]
+answer: "The sun is essential for life on Earth"
+
+---
+DAY 70
+Ex1 type=passage_mcq
+passage: "Amy got a new puppy called Pepper. She taught Pepper to sit and shake hands. Pepper was a fast learner and loved getting treats."
+question: "What did Pepper learn to do?"
+options: ["Roll over and bark","Sit and shake hands","Fetch and run","Jump and spin"]
+answer: "Sit and shake hands"
+
+Ex2 type=sequence_events
+sentences: ["Pepper got a treat","Amy taught Pepper to shake hands","Amy got a new puppy","Amy taught Pepper to sit"]
+correct_order: [2,3,1,0]
+
+Ex3 type=inference_question
+passage: "Mum looked at the empty biscuit tin, then looked at Max. Max looked at the floor."
+question: "What had Max probably done?"
+options: ["Hidden the tin","Eaten all the biscuits","Bought new biscuits","Broken the tin"] | answer: "Eaten all the biscuits"
+
+Ex4 type=main_idea_picker
+passage: "Sleep helps your brain and body rest. Children need around 10 hours of sleep each night. A good sleep routine helps you feel happy and ready to learn."
+options: ["Sleep is boring","Getting enough sleep is very important for children","Bedtime is at 9pm","Dreams happen at night"]
+answer: "Getting enough sleep is very important for children"
+
+---
+DAY 71 — 3–4 sentence passages
+Ex1 type=passage_mcq
+passage: "The market opens every Saturday morning. Farmers bring fresh fruit and vegetables to sell. There are also stalls selling bread, cheese, and honey. Many people come to buy their food for the week."
+question: "When does the market open?"
+options: ["Every weekday","Every Friday evening","Every Saturday morning","Every Sunday afternoon"]
+answer: "Every Saturday morning"
+
+Ex2 type=sequence_events
+sentences: ["Customers buy their food","Farmers pack their goods","The market opens","Farmers set up their stalls"]
+correct_order: [1,3,2,0]
+
+Ex3 type=inference_question
+passage: "Daniel arrived at the swimming pool with wet hair and a towel over his shoulder. He smelled of chlorine."
+question: "What had Daniel just been doing?"
+options: ["Playing in the rain","Having a shower","Swimming","Washing the car"] | answer: "Swimming"
+
+Ex4 type=main_idea_picker
+passage: "Plants need sunlight to make their own food. They also need water and nutrients from the soil. Without these things a plant cannot survive. Healthy plants grow strong stems and green leaves."
+options: ["Plants are green","Plants need specific conditions to grow and survive","Soil is important","Sunlight is the most important thing"]
+answer: "Plants need specific conditions to grow and survive"
+
+---
+DAY 72
+Ex1 type=passage_mcq
+passage: "Our school has a vegetable garden. Each class looks after one section. We water the plants every morning. At the end of term we eat the vegetables in a salad."
+question: "When do the children eat the vegetables?"
+options: ["Every morning","During lunch every day","At the end of term","When they are watering"]
+answer: "At the end of term"
+
+Ex2 type=sequence_events
+sentences: ["The children eat the vegetables","Each class waters their section","Seeds are planted in the garden","The vegetables grow big"]
+correct_order: [2,1,3,0]
+
+Ex3 type=inference_question
+passage: "The library was warm and quiet. Sophie settled into a big armchair with a thick book and did not move for two hours."
+question: "What does this tell us about Sophie?"
+options: ["She was tired","She loves reading","She was waiting for someone","She was doing homework"] | answer: "She loves reading"
+
+Ex4 type=main_idea_picker
+passage: "The ocean covers more than two thirds of the Earth. It is home to millions of creatures. Scientists believe many ocean animals have not yet been discovered. The ocean also controls our weather and climate."
+options: ["The ocean is dangerous","The ocean is incredibly important and full of unknown life","Fish live in the ocean","The weather comes from the sea"]
+answer: "The ocean is incredibly important and full of unknown life"
+
+---
+DAY 73
+Ex1 type=passage_mcq
+passage: "A lighthouse stands at the edge of the cliffs. It flashes a bright light every few seconds. Ships use the light to know where the rocks are. Without the lighthouse many ships would crash."
+question: "Why is the lighthouse important for ships?"
+options: ["It tells them the time","It shows where the rocks are","It guides them to the port","It warns them about storms"]
+answer: "It shows where the rocks are"
+
+Ex2 type=sequence_events
+sentences: ["Ships avoid the rocks","The lighthouse flashes a light","A ship approaches the cliffs","The captain sees the lighthouse light"]
+correct_order: [1,2,3,0]
+
+Ex3 type=inference_question
+passage: "Finn's stomach growled loudly. He looked at the clock and saw it was only eleven in the morning."
+question: "How was Finn probably feeling?"
+options: ["Angry","Sleepy","Hungry","Excited"] | answer: "Hungry"
+
+Ex4 type=main_idea_picker
+passage: "Ancient Egyptians built huge pyramids thousands of years ago. These were tombs for their pharaohs and queens. Workers spent many years cutting and moving enormous stones. The pyramids are still standing today."
+options: ["Egypt is a hot country","The pyramids are among the most impressive buildings ever made","Pharaohs were very important","Stone is very strong"]
+answer: "The pyramids are among the most impressive buildings ever made"
+
+---
+DAY 74
+Ex1 type=passage_mcq
+passage: "Josh loved astronomy. He had a telescope in his bedroom. Every clear night he would look at the stars for hours. His favourite object to observe was the moon."
+question: "What was Josh's favourite thing to look at?"
+options: ["Planets","Comets","The moon","Shooting stars"]
+answer: "The moon"
+
+Ex2 type=sequence_events
+sentences: ["Josh looks through the telescope","Josh sets up the telescope","Josh waits for a clear night","Josh goes to bed late"]
+correct_order: [2,1,0,3]
+
+Ex3 type=inference_question
+passage: "Every time the front door opened, the dog jumped up, ran to see who had come in, and wagged its tail so hard its whole body shook."
+question: "How did the dog feel when someone arrived?"
+options: ["Scared","Confused","Very excited","Sleepy"] | answer: "Very excited"
+
+Ex4 type=main_idea_picker
+passage: "Rainforests cover only a small part of the Earth. However, they are home to more than half of the world's animal and plant species. They also produce a large amount of the oxygen we breathe. Sadly, large areas of rainforest are cut down each year."
+options: ["Rainforests are in South America","Rainforests are vital to life on Earth and urgently need protecting","Animals live in forests","Trees make oxygen"]
+answer: "Rainforests are vital to life on Earth and urgently need protecting"
+
+---
+DAY 75
+Ex1 type=passage_mcq
+passage: "Grace wanted to learn the guitar. She practised for thirty minutes every evening after school. At first her fingers hurt and the notes sounded wrong. After two months she could play her first song all the way through."
+question: "How long did it take Grace to play her first full song?"
+options: ["One week","One month","Two months","Six months"]
+answer: "Two months"
+
+Ex2 type=sequence_events
+sentences: ["Grace played her first full song","Grace started practising every evening","Grace wanted to learn guitar","Grace's fingers hurt at first"]
+correct_order: [2,1,3,0]
+
+Ex3 type=inference_question
+passage: "Nadia handed in her test paper. She bounced out of the classroom smiling. She told her friend she had answered every question."
+question: "How did Nadia feel about her test?"
+options: ["Worried","Confident and pleased","Unsure","Relieved it was over"] | answer: "Confident and pleased"
+
+Ex4 type=main_idea_picker
+passage: "Water is essential for all life on Earth. Our bodies are mostly made of water and we need to drink it every day. Water also shapes the land through rivers and rain. Clean drinking water is not available to everyone in the world."
+options: ["We should drink more water","Water is one of the most important resources on Earth","Rivers are formed by rain","Our bodies need water"]
+answer: "Water is one of the most important resources on Earth"
+
+---
+DAY 76
+Ex1 type=passage_mcq
+passage: "The town held its annual kite festival on the first weekend of May. Hundreds of people gathered in the park. Kites of every shape and colour filled the sky. Children and adults cheered as the biggest kite rose high above the trees."
+question: "When is the kite festival held?"
+options: ["The last weekend of April","Every Saturday in summer","The first weekend of May","The first weekend of June"]
+answer: "The first weekend of May"
+
+Ex2 type=sequence_events
+sentences: ["The biggest kite rose above the trees","People gathered in the park","Kites were launched into the sky","The crowd cheered"]
+correct_order: [1,2,0,3]
+
+Ex3 type=inference_question
+passage: "The old man walked slowly to the post box and opened it hopefully. He pulled out only a few leaflets and sighed."
+question: "What had the old man been hoping for?"
+options: ["Leaflets","A parcel","A letter","A bill"] | answer: "A letter"
+
+Ex4 type=main_idea_picker
+passage: "Volcanoes form when molten rock pushes up through the Earth's surface. When a volcano erupts it can shoot ash and lava miles into the air. Eruptions can be very dangerous for people living nearby. However, volcanic soil is very rich and good for growing crops."
+options: ["Volcanoes are dangerous","Volcanoes are powerful natural events with both dangers and benefits","Lava is very hot","Soil near volcanoes is good for farming"]
+answer: "Volcanoes are powerful natural events with both dangers and benefits"
+
+---
+DAY 77
+Ex1 type=passage_mcq
+passage: "Zara had saved up for months to buy a new bicycle. On her birthday she went to the shop with her dad. She chose a bright yellow one with a silver bell. She rode it home all the way without stopping."
+question: "How did Zara pay for the bicycle?"
+options: ["Her dad paid","She used birthday money","She had saved up for months","The shop gave her a discount"]
+answer: "She had saved up for months"
+
+Ex2 type=sequence_events
+sentences: ["Zara rode the bike home","Zara saved her money","Zara chose a yellow bicycle","Zara went to the shop"]
+correct_order: [1,3,2,0]
+
+Ex3 type=inference_question
+passage: "The players looked exhausted. Their kit was muddy and torn. Some were limping as they walked off the pitch."
+question: "What had the players just finished?"
+options: ["A training session","A hard match","A long run","A swimming race"] | answer: "A hard match"
+
+Ex4 type=main_idea_picker
+passage: "Migration is when animals travel from one place to another at certain times of year. Birds fly thousands of miles to warmer countries in winter. Whales and fish also migrate to find food or to breed. Scientists track these journeys to learn more about animal behaviour."
+options: ["Birds fly south in winter","Many animals make remarkable journeys called migration","Scientists study animals","Whales travel long distances"]
+answer: "Many animals make remarkable journeys called migration"
+
+---
+DAY 78
+Ex1 type=passage_mcq
+passage: "A new park opened in the middle of the city. It had a lake, a playground, and walking paths lined with trees. On the first day it opened, over a thousand people visited. The mayor said it was the city's gift to its residents."
+question: "What did the mayor say about the park?"
+options: ["It cost too much to build","It was the city's gift to its residents","It would close on weekdays","It was the biggest park in the country"]
+answer: "It was the city's gift to its residents"
+
+Ex2 type=sequence_events
+sentences: ["Over a thousand people visited","The mayor made a speech","The park was built in the city","The park gates opened for the first time"]
+correct_order: [2,3,0,1]
+
+Ex3 type=inference_question
+passage: "The girl stared at the maths problem for a long time. She rubbed out her working three times. Her face was scrunched up in concentration."
+question: "How was the girl finding the maths problem?"
+options: ["Easy and fun","Boring","Difficult and challenging","Quick to finish"] | answer: "Difficult and challenging"
+
+Ex4 type=main_idea_picker
+passage: "The International Space Station orbits the Earth at over 400 kilometres above the ground. Astronauts from many countries live and work there together. They carry out scientific experiments that help us learn about space and health. The station has been continuously occupied since the year 2000."
+options: ["Space is very far away","The ISS is an important international workplace for science in space","Astronauts are brave","The station orbits 400km up"]
+answer: "The ISS is an important international workplace for science in space"
+
+---
+DAY 79 — 5–6 sentence passages
+Ex1 type=passage_mcq
+passage: "Every winter, thousands of starlings fly together in huge groups called murmurations. They twist and turn through the sky in amazing shapes. Scientists believe they do this to confuse predators like hawks. Each bird follows its nearest neighbours rather than a leader. Together they create patterns that no single bird could plan. It is one of nature's most extraordinary sights."
+question: "Why do scientists think starlings fly in murmurations?"
+options: ["To keep warm","To find food","To confuse predators","To find a mate"]
+answer: "To confuse predators"
+
+Ex2 type=sequence_events
+sentences: ["The murmuration creates beautiful shapes","A hawk approaches the group","The starlings gather in large numbers","Each bird follows its neighbours"]
+correct_order: [2,1,3,0]
+
+Ex3 type=inference_question
+passage: "Callum walked past the bakery and slowed down. He pressed his nose against the glass and looked at the pastries inside. He put his hand in his pocket and felt a few coins."
+question: "What was Callum thinking about doing?"
+options: ["Looking at the window display","Buying something from the bakery","Asking for a job","Taking a photo"] | answer: "Buying something from the bakery"
+
+Ex4 type=main_idea_picker
+passage: "The Great Wall of China stretches for thousands of kilometres. It was built over many centuries by millions of workers. Soldiers used it to defend China from invaders in the north. Some sections of the wall are very well preserved and attract millions of tourists. Other parts have crumbled over time and are barely visible. It remains one of the greatest building projects in human history."
+options: ["China has a long history","The Great Wall is one of the greatest achievements in human history","The wall kept invaders out","Tourism is important in China"]
+answer: "The Great Wall is one of the greatest achievements in human history"
+
+---
+DAY 80
+Ex1 type=passage_mcq
+passage: "Coral reefs are found in warm, shallow ocean water. They are made from the skeletons of tiny animals called coral polyps. Reefs are home to an enormous variety of fish and sea creatures. They are sometimes called the rainforests of the sea. However, rising ocean temperatures are causing the coral to bleach and die. Scientists are working hard to find ways to protect them."
+question: "What are coral reefs made from?"
+options: ["Rocks and sand","Tiny plants","The skeletons of coral polyps","Shells from fish"]
+answer: "The skeletons of coral polyps"
+
+Ex2 type=sequence_events
+sentences: ["Scientists try to protect the reef","Coral polyps build up over thousands of years","Ocean temperatures rise","Coral begins to bleach and die"]
+correct_order: [1,2,3,0]
+
+Ex3 type=inference_question
+passage: "The shop assistant smiled and handed back the change. The customer looked at it, then looked back at the price on the shelf, and frowned slightly."
+question: "What was the customer probably thinking?"
+options: ["The shop was too busy","The change was incorrect","The product was good","They forgot what they wanted"] | answer: "The change was incorrect"
+
+Ex4 type=main_idea_picker
+passage: "Thomas Edison made over a thousand inventions in his lifetime. His most famous was the practical electric light bulb. He also helped develop the phonograph, which could record and play back sound. Edison believed that genius was one percent inspiration and ninety-nine percent hard work. He often worked for days with very little sleep. His perseverance changed the modern world."
+options: ["Edison invented the light bulb","Edison's hard work and determination led to inventions that changed the world","Hard work is more important than talent","Thomas Edison was very famous"]
+answer: "Edison's hard work and determination led to inventions that changed the world"
+
+---
+DAY 81
+Ex1 type=passage_mcq
+passage: "Florence Nightingale was born in 1820. She became a nurse at a time when nursing was not considered a respectable profession. During the Crimean War she travelled to military hospitals in Turkey. She found the conditions there shockingly dirty and overcrowded. She worked tirelessly to improve cleanliness and patient care. Her work dramatically reduced the number of soldiers who died from infections."
+question: "Where did Florence Nightingale work during the Crimean War?"
+options: ["Hospitals in London","Military hospitals in Turkey","Field hospitals in France","A hospital ship at sea"]
+answer: "Military hospitals in Turkey"
+
+Ex2 type=sequence_events
+sentences: ["Fewer soldiers died from infection","Florence found hospitals dirty and overcrowded","Florence travelled to Turkey","Florence improved hygiene and care"]
+correct_order: [2,1,3,0]
+
+Ex3 type=inference_question
+passage: "The explorer reached the top of the hill and gazed at the valley below. She had never seen this land on any map she had studied."
+question: "What does this suggest about the explorer?"
+options: ["She was lost","She had discovered somewhere previously unmapped","She had been there before","She had dropped her map"] | answer: "She had discovered somewhere previously unmapped"
+
+Ex4 type=main_idea_picker
+passage: "Plastic pollution is one of the biggest environmental problems today. Millions of tonnes of plastic end up in the ocean each year. Sea animals often mistake plastic for food and can die after eating it. Some plastics take hundreds of years to break down. Scientists are developing new materials that can replace plastic. Reducing plastic use is something everyone can help with."
+options: ["Plastic is bad","Plastic pollution is a serious global problem that requires urgent action","Oceans are being polluted","Scientists are solving the problem"]
+answer: "Plastic pollution is a serious global problem that requires urgent action"
+
+---
+DAY 82
+Ex1 type=passage_mcq
+passage: "Isaac Newton was sitting under an apple tree when an apple fell and hit him on the head. This led him to think about why objects fall to the ground. He developed the theory of gravity, which explained that all objects attract each other. The larger and closer an object is, the stronger the pull. His work transformed our understanding of how the universe works. Newton published his findings in a famous book in 1687."
+question: "What made Newton start thinking about gravity?"
+options: ["He read a book about it","An apple fell and hit him","He watched the planets","A teacher explained it to him"]
+answer: "An apple fell and hit him"
+
+Ex2 type=sequence_events
+sentences: ["Newton published his findings","An apple fell on Newton's head","Newton developed the theory of gravity","Newton began thinking about why objects fall"]
+correct_order: [1,3,2,0]
+
+Ex3 type=inference_question
+passage: "The young boy stood on the stage staring at the audience. His mouth opened but no sound came out. His hands were shaking."
+question: "How was the boy feeling?"
+options: ["Excited","Bored","Very nervous","Unwell"] | answer: "Very nervous"
+
+Ex4 type=main_idea_picker
+passage: "The Amazon river is the largest river in the world by volume of water. It flows through the Amazon rainforest in South America. The river and the forest around it are home to more species of plants and animals than anywhere else on Earth. Indigenous communities have lived along the river for thousands of years. Today the river and its forest face threats from deforestation and pollution. Protecting this region is crucial for the planet."
+options: ["The Amazon is a big river","The Amazon region is one of Earth's most important and threatened ecosystems","Many animals live in the Amazon","Deforestation is a problem"]
+answer: "The Amazon region is one of Earth's most important and threatened ecosystems"
+
+---
+DAY 83
+Ex1 type=passage_mcq
+passage: "Marie Curie was the first woman to win a Nobel Prize. She won it twice, in two different sciences. Her research on radioactivity changed how scientists understood atoms. She worked in a laboratory in Paris with her husband Pierre. The couple often ignored warnings about the dangers of radioactivity. Sadly, Marie Curie's health suffered because of her long exposure to radioactive materials."
+question: "How many Nobel Prizes did Marie Curie win?"
+options: ["One","Two","Three","Four"]
+answer: "Two"
+
+Ex2 type=sequence_events
+sentences: ["Marie Curie's health suffered","Marie won her second Nobel Prize","Marie began researching radioactivity","Marie and Pierre worked together in Paris"]
+correct_order: [2,3,1,0]
+
+Ex3 type=inference_question
+passage: "The stadium fell silent. The penalty taker placed the ball on the spot and took several steps back. Thousands of eyes watched him."
+question: "What was about to happen in this passage?"
+options: ["The match was about to start","A player was about to take a crucial penalty","The crowd was leaving","A goal had just been scored"] | answer: "A player was about to take a crucial penalty"
+
+Ex4 type=main_idea_picker
+passage: "Many languages around the world are at risk of disappearing. When the last speaker of a language dies, the language is lost forever. With it goes a unique way of seeing the world, stories, and traditions. Linguists are working to record endangered languages before they vanish. Some communities are teaching their children the old language. Preserving language is about preserving culture and identity."
+options: ["Languages change over time","The loss of a language means the loss of a unique culture and way of life","Old people speak rare languages","Linguists study languages"]
+answer: "The loss of a language means the loss of a unique culture and way of life"
+
+---
+DAY 84
+Ex1 type=passage_mcq
+passage: "The concept of zero was one of the most important ideas in the history of mathematics. Ancient civilisations struggled to do calculations without it. Mathematicians in India developed the modern zero around 1,500 years ago. Without zero we could not write large numbers or do complex sums. It is also the foundation for how computers store and process information. Something that seems simple turned out to be revolutionary."
+question: "Where was the modern zero developed?"
+options: ["Ancient Egypt","Greece","India","China"]
+answer: "India"
+
+Ex2 type=sequence_events
+sentences: ["Computers use zero in their systems","Mathematicians in India developed zero","People struggled to calculate without zero","Zero made large numbers possible to write"]
+correct_order: [1,0,3,2]
+
+Ex3 type=inference_question
+passage: "The detective knelt beside the muddy footprints. She pulled out a small notebook and began sketching. A faint smile crossed her lips."
+question: "Why was the detective smiling?"
+options: ["She found the case boring","She recognised a clue that might help solve the case","She found something funny","She was tired"] | answer: "She recognised a clue that might help solve the case"
+
+Ex4 type=main_idea_picker
+passage: "Chocolate was originally a bitter drink made by the ancient Maya and Aztec peoples of Central America. It was considered sacred and was used in religious ceremonies. Spanish explorers brought cocoa back to Europe in the 1500s. Europeans added sugar and milk and it became enormously popular. Today chocolate is one of the most beloved foods in the world. It is now produced in many forms and flavours."
+options: ["Chocolate comes from Central America","Chocolate has a rich history and has changed greatly from its ancient origins","Aztecs drank chocolate","Europeans added sugar to chocolate"]
+answer: "Chocolate has a rich history and has changed greatly from its ancient origins"
+
+---
+DAY 85
+Ex1 type=passage_mcq
+passage: "Climate change is causing the Earth's average temperature to rise. This is mainly because humans burn fossil fuels which release carbon dioxide into the air. The extra carbon dioxide traps heat from the sun, like a blanket around the Earth. This leads to melting ice caps, rising sea levels, and more extreme weather. Many countries have agreed to reduce their carbon emissions. Scientists say we must act quickly to avoid the worst effects."
+question: "What do fossil fuels release when burned?"
+options: ["Oxygen","Nitrogen","Carbon dioxide","Water vapour"]
+answer: "Carbon dioxide"
+
+Ex2 type=sequence_events
+sentences: ["Sea levels rise and weather becomes more extreme","Humans burn fossil fuels","Carbon dioxide traps heat from the sun","Carbon dioxide is released into the atmosphere"]
+correct_order: [1,3,2,0]
+
+Ex3 type=inference_question
+passage: "The farmer looked up at the sky, then at his dry brown fields, and shook his head slowly."
+question: "What problem was the farmer probably facing?"
+options: ["Too much rain","A drought and lack of water","Strong winds","Frost damaging his crops"] | answer: "A drought and lack of water"
+
+Ex4 type=main_idea_picker
+passage: "Antibiotics are medicines that kill bacteria. They were discovered by Alexander Fleming in 1928 when he noticed that mould was killing bacteria in his laboratory. Penicillin, the first antibiotic, has saved millions of lives. However, antibiotics are being overused and some bacteria are becoming resistant to them. This means infections that were once easy to treat may become dangerous again. Scientists are urgently developing new antibiotics."
+options: ["Fleming discovered penicillin","Antibiotics have saved many lives but are now threatened by overuse","Bacteria are becoming resistant","Medicine has advanced a lot"]
+answer: "Antibiotics have saved many lives but are now threatened by overuse"
+
+---
+DAY 86 — Short paragraphs (7–8 sentences)
+Ex1 type=passage_mcq
+passage: "The deep ocean is one of the least explored places on Earth. It is pitch black because no sunlight reaches below a certain depth. The pressure is so great that it would crush a human being. Despite these extreme conditions, thousands of creatures live there. Many produce their own light in a process called bioluminescence. Scientists use remote-controlled submarines to explore the deep sea. Each expedition discovers new species that were completely unknown before. The deep ocean may hold clues about the origins of life itself."
+question: "How do scientists explore the deep ocean?"
+options: ["By diving in special suits","Using remote-controlled submarines","Sending robots from the surface","Lowering cameras on ropes"]
+answer: "Using remote-controlled submarines"
+
+Ex2 type=sequence_events
+sentences: ["Scientists send a submarine into the deep ocean","A new species is discovered and named","Scientists plan an expedition","The submarine reaches the ocean floor"]
+correct_order: [2,0,3,1]
+
+Ex3 type=inference_question
+passage: "The head teacher stood at the front of the assembly. She held up a letter. The whole room went quiet. She began to read about an exciting opportunity. Some students looked at each other with raised eyebrows."
+question: "How did the students probably feel as the head teacher read the letter?"
+options: ["Bored and uninterested","Curious and excited","Nervous and worried","Tired and distracted"] | answer: "Curious and excited"
+
+Ex4 type=main_idea_picker
+passage: "The printing press was invented by Johannes Gutenberg in around 1440. Before this, books had to be copied by hand which took months or years. The press allowed hundreds of identical books to be made in days. This made books affordable for ordinary people for the first time. Knowledge spread rapidly across Europe. The Bible was one of the first books to be mass-produced. Many historians believe the printing press triggered the Renaissance and the Scientific Revolution. It changed human history more than almost any other invention."
+options: ["Gutenberg was a great inventor","The printing press revolutionised the spread of knowledge and changed the course of history","Books used to be very expensive","The Bible was printed early"]
+answer: "The printing press revolutionised the spread of knowledge and changed the course of history"
+
+---
+DAY 87
+Ex1 type=passage_mcq
+passage: "The Olympic Games began in ancient Greece over two thousand years ago. Athletes from different city-states gathered to compete in events like running, wrestling, and discus throwing. The games were held in honour of the god Zeus. Modern Olympic Games were revived in Athens in 1896. Today athletes from almost every country in the world compete. The games are held every four years and alternate between summer and winter editions. Hosting the Olympics is considered a great honour for a country. Billions of people watch the games on television."
+question: "In which city were the modern Olympic Games revived?"
+options: ["London","Rome","Paris","Athens"]
+answer: "Athens"
+
+Ex2 type=sequence_events
+sentences: ["Billions watch the games on TV","Ancient Greeks held games for Zeus","Modern games revived in 1896","Athletes from every country compete today"]
+correct_order: [1,2,3,0]
+
+Ex3 type=inference_question
+passage: "The team captain read out the list of names who had made it through trials. At the end, one boy sitting at the back slowly dropped his head into his hands."
+question: "What had probably happened to the boy at the back?"
+options: ["He was tired","His name was not on the list","He had won a prize","He was surprised his name was first"] | answer: "His name was not on the list"
+
+Ex4 type=main_idea_picker
+passage: "The human brain is the most complex object in the known universe. It contains around 86 billion nerve cells called neurons. These neurons form trillions of connections with each other. Every thought, memory, and feeling you have is produced by electrical signals passing between neurons. Scientists have been studying the brain for centuries but still have much to learn. Brain diseases like Alzheimer's affect millions of people worldwide. Understanding the brain more fully could lead to treatments for these conditions. The brain is the organ that makes us who we are."
+options: ["The brain has 86 billion neurons","The human brain is extraordinarily complex and understanding it better could transform medicine","Scientists study the brain","Memory comes from the brain"]
+answer: "The human brain is extraordinarily complex and understanding it better could transform medicine"
+
+---
+DAY 88
+Ex1 type=passage_mcq
+passage: "Amelia Earhart was the first woman to fly solo across the Atlantic Ocean. She completed the flight in 1932, taking just under fifteen hours. Before this she had already become famous as the first woman to fly across the Atlantic as a passenger. Earhart believed strongly that women could do anything men could do. She used her fame to encourage other women to pursue careers in aviation. In 1937 she attempted to fly around the world. Her plane disappeared over the Pacific Ocean and she was never found. Her courage and ambition made her a lasting symbol of what is possible."
+question: "What happened to Amelia Earhart in 1937?"
+options: ["She completed a round-the-world flight","She broke a speed record","Her plane disappeared over the Pacific","She retired from flying"]
+answer: "Her plane disappeared over the Pacific"
+
+Ex2 type=sequence_events
+sentences: ["Earhart disappeared over the Pacific","Earhart flew solo across the Atlantic","Earhart flew across the Atlantic as a passenger","Earhart attempted to fly around the world"]
+correct_order: [2,1,3,0]
+
+Ex3 type=inference_question
+passage: "The teacher handed back the marked essays. Most students quickly flipped to the last page. One student folded hers carefully and put it in her bag without looking."
+question: "Why might the student have put her essay away without looking?"
+options: ["She already knew her grade","She was nervous about her mark","She had finished the lesson","She did not care about the result"] | answer: "She was nervous about her mark"
+
+Ex4 type=main_idea_picker
+passage: "Music has been part of human life for at least forty thousand years. Ancient instruments made from bone have been found in caves in Europe. Every known culture in the world has its own music. Studies show that listening to music can reduce stress and improve mood. Learning an instrument helps children develop memory and concentration. Music brings people together at celebrations, ceremonies, and protests. It can express emotions that words cannot fully capture. Music is perhaps the most universal language humans have ever created."
+options: ["Ancient people played music","Music is a universal human experience with deep benefits for mind and society","Learning instruments is good for children","Music reduces stress"]
+answer: "Music is a universal human experience with deep benefits for mind and society"
+
+---
+DAY 89
+Ex1 type=passage_mcq
+passage: "Malala Yousafzai grew up in Pakistan's Swat Valley. When the Taliban took control of the region, they banned girls from going to school. Malala began writing an anonymous blog for the BBC describing life under Taliban rule. She became a public voice for girls' education. In 2012, a gunman shot her on her school bus. She survived after months of treatment in the UK. Rather than being silenced, Malala continued her campaigning. In 2014 she became the youngest person ever to win the Nobel Peace Prize."
+question: "Why did the Taliban ban girls from school?"
+options: ["They believed girls needed to work","They wanted to control the population","They opposed girls' education based on their beliefs","They wanted to save money"]
+answer: "They opposed girls' education based on their beliefs"
+
+Ex2 type=sequence_events
+sentences: ["Malala won the Nobel Peace Prize","Malala survived after treatment in the UK","The Taliban banned girls from school","Malala was shot on her school bus"]
+correct_order: [2,1,3,0]
+
+Ex3 type=inference_question
+passage: "The astronaut floated to the window of the space station and looked down at the blue and white sphere below. She pressed her hand gently against the glass."
+question: "What was the astronaut probably feeling in this moment?"
+options: ["Fear of heights","Boredom","Wonder and awe at the view of Earth","Longing to return home immediately"] | answer: "Wonder and awe at the view of Earth"
+
+Ex4 type=main_idea_picker
+passage: "Throughout history, ordinary people have made extraordinary changes to the world. Rosa Parks refused to give up her bus seat and sparked the civil rights movement. Greta Thunberg began a school strike at age fifteen and started a global climate movement. Nicholas Winton organised the rescue of 669 children from Nazi-occupied Europe. Each of these people acted on their beliefs at great personal risk. Their actions changed the lives of millions. History shows that one person with courage and conviction can shift the direction of the world. We all have the potential to make a difference."
+options: ["Famous people change the world","Individual courage and conviction can inspire global change","Rosa Parks was brave","Climate change needs action"]
+answer: "Individual courage and conviction can inspire global change"
+
+---
+DAY 90 — Final day
+Ex1 type=passage_mcq
+passage: "Languages are living things. They grow, change, and sometimes die. English has borrowed words from French, Latin, Arabic, Hindi, and hundreds of other languages. Words like pyjamas, algebra, and chocolate all come from other languages. New words are added to the dictionary every year, often from technology or popular culture. Some old words fall out of use completely. The way we speak today would sound strange to someone from five hundred years ago. Language changes because people change. It is a mirror held up to our history and our values."
+question: "What does the passage say is mirrored in language?"
+options: ["Technology and science","History and values","Literature and art","Spelling and grammar"]
+answer: "History and values"
+
+Ex2 type=sequence_events
+sentences: ["New words enter the dictionary","Languages borrow words from each other","Old words fall out of use","People and cultures change"]
+correct_order: [3,1,0,2]
+
+Ex3 type=inference_question
+passage: "She closed the last page of the book, set it gently on the table, and stared at the ceiling for a long while. Her tea had gone cold."
+question: "What does this tell us about the book?",
+options: ["It was very short","It was difficult to read","It had a powerful effect on her","She did not enjoy it"] | answer: "It had a powerful effect on her"
+
+Ex4 type=main_idea_picker
+passage: "Learning to read is one of the most important skills a person can develop. It opens the door to knowledge, imagination, and opportunity. Every subject at school depends on reading. Good readers tend to do better in all areas of their education. Reading for pleasure also builds empathy by letting us experience other lives and perspectives. Libraries give everyone free access to books and ideas. Struggling with reading does not mean a person is less intelligent. With the right support, every child can become a confident reader. Reading is a gift that lasts a lifetime."
+options: ["Books are important","Libraries are useful","Reading is one of the most powerful and life-changing skills anyone can learn","Struggling readers need support"]
+answer: "Reading is one of the most powerful and life-changing skills anyone can learn"
+
+=============================================================
+END OF 90-DAY SEED DATA
+Total: 90 days · 360 exercises · 6 phases
+=============================================================
+</div>
+
+<script>
+function copyAll() {
+  const text = document.getElementById('full-data').innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('mainCopyBtn');
+    btn.textContent = 'Copied! Paste into your AI prompt.';
+    btn.classList.add('done');
+    setTimeout(() => {
+      btn.textContent = 'Copy all seed data (paste into AI)';
+      btn.classList.remove('done');
+    }, 3000);
+  });
+}
+
+// Build day cards dynamically
+const phases = [
+  { num: 1, label: 'p1', name: 'Phase 1 — Phonological Awareness', days: [1,2,3,4,5,6,7] },
+  { num: 2, label: 'p2', name: 'Phase 2 — Phonics & Decoding', days: [8,9,10,11,12,13,14,15,16,17,18,19,20,21] },
+  { num: 3, label: 'p3', name: 'Phase 3 — Fluency & Syllable Types', days: [22,23,24,25,26,27,28,29,30,31,32,33,34,35] },
+  { num: 4, label: 'p4', name: 'Phase 4 — Vocabulary & Morphology', days: [36,37,38,39,40,41,42,43,44,45,46,47,48,49] },
+  { num: 5, label: 'p5', name: 'Phase 5 — Syntax & Spelling Rules', days: [50,51,52,53,54,55,56,57,58,59,60,61,62,63] },
+  { num: 6, label: 'p6', name: 'Phase 6 — Reading Comprehension', days: [64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90] },
+];
+
+const typesByPhase = {
+  1: ['syllable_tap','rhyme_match','sound_identify','sound_blend'],
+  2: ['letter_sound_match','word_builder','odd_one_out','decode_word'],
+  3: ['syllable_split','syllable_sort','timed_flash_read','speed_sort'],
+  4: ['morpheme_builder','definition_match','word_family_sort','fill_blank'],
+  5: ['spelling_rule_sort','sentence_unscramble','spell_it','error_detect'],
+  6: ['passage_mcq','sequence_events','inference_question','main_idea_picker'],
+};
+
+const dayTitles = {
+  1:'CVC short-a/e/i words',2:'CVC words',3:'CVC words',4:'CVC words',5:'CVC words',6:'CVC words',7:'CVC review',
+  8:'Simple CVC short-a',9:'CVC short-i',10:'CVC short-o/u',11:'L-blends',12:'R-blends',13:'S-blends',14:'End blends',
+  15:'ch/sh digraphs',16:'th/wh digraphs',17:'Mixed digraphs',18:'Short vowel review',19:'CCVC/CVCC',20:'Triple blends',21:'Phase 2 review',
+  22:'2-syl closed',23:'2-syl words',24:'2-syl words',25:'2-syl words',26:'3-syl words',27:'3-syl words',28:'3-syl words',
+  29:'3-syl words',30:'Mixed types',31:'Compound words',32:'Compound words',33:'Multisyllabic',34:'Speed focus',35:'Phase 3 review',
+  36:'Root: PLAY',37:'Root: HELP',38:'Root: WORK',39:'Root: KIND',40:'Root: READ',41:'Root: WRITE',42:'Root: LIGHT',
+  43:'Root: DARK',44:'Root: FRIEND',45:'Root: CARE',46:'Root: MOVE',47:'Root: TURN',48:'Root: THINK',49:'Phase 4 review',
+  50:'-ck rule',51:'-ck continued',52:'-ck review',53:'-tch rule',54:'-tch continued',55:'-tch review',
+  56:'Doubling rule',57:'Doubling continued',58:'Doubling review',59:'Drop-e rule',60:'Drop-e continued',61:'Drop-e review',62:'Mixed rules',63:'Phase 5 review',
+  64:'2-sentence passages',65:'2-sentence passages',66:'2-sentence passages',67:'2-sentence passages',68:'2-sentence passages',
+  69:'2-sentence passages',70:'2-sentence passages',71:'3-4 sentence passages',72:'3-4 sentence passages',73:'3-4 sentence passages',
+  74:'3-4 sentence passages',75:'3-4 sentence passages',76:'3-4 sentence passages',77:'3-4 sentence passages',78:'3-4 sentence passages',
+  79:'5-6 sentence passages',80:'5-6 sentence passages',81:'5-6 sentence passages',82:'5-6 sentence passages',83:'5-6 sentence passages',
+  84:'5-6 sentence passages',85:'5-6 sentence passages',86:'Full paragraphs',87:'Full paragraphs',88:'Full paragraphs',89:'Full paragraphs',90:'Final day'
+};
+
+const container = document.body;
+
+phases.forEach(phase => {
+  const block = document.createElement('div');
+  block.className = 'phase-block';
+
+  const header = document.createElement('div');
+  header.className = 'phase-header';
+  header.innerHTML = `<span class="phase-badge ${phase.label}">Phase ${phase.num}</span><span class="phase-title">${phase.name}</span>`;
+  block.appendChild(header);
+
+  phase.days.forEach(day => {
+    const card = document.createElement('div');
+    card.className = 'day-card';
+    const types = typesByPhase[phase.num];
+    card.innerHTML = `
+      <div class="day-header" onclick="toggleDay(${day})">
+        <div>
+          <span class="day-label">Day ${day} — ${dayTitles[day] || ''}</span>
+          <div class="day-types">${types.join(' · ')}</div>
+        </div>
+        <span class="chevron" id="chev-${day}">▼</span>
+      </div>
+      <div class="day-body" id="body-${day}">
+        <div class="ex"><div class="ex-label">Ex 1 · ${types[0]}</div><div class="ex-content" id="ex1-${day}">See full seed data above — copy button at top</div></div>
+        <div class="ex"><div class="ex-label">Ex 2 · ${types[1]}</div><div class="ex-content" id="ex2-${day}">See full seed data above</div></div>
+        <div class="ex"><div class="ex-label">Ex 3 · ${types[2]}</div><div class="ex-content" id="ex3-${day}">See full seed data above</div></div>
+        <div class="ex"><div class="ex-label">Ex 4 · ${types[3]}</div><div class="ex-content" id="ex4-${day}">See full seed data above</div></div>
+      </div>`;
+    block.appendChild(card);
+  });
+
+  container.appendChild(block);
+});
+
+function toggleDay(day) {
+  const body = document.getElementById('body-' + day);
+  const chev = document.getElementById('chev-' + day);
+  body.classList.toggle('open');
+  chev.textContent = body.classList.contains('open') ? '▲' : '▼';
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Generated migration outputs (may contain connection hints)
+*.dump
+manifest_*.txt
+*.bak
+dyslexia_db.*

@@ -1,0 +1,12 @@
+This folder is for migration outputs (manifests, dumps). Contents are gitignored.
+
+Last automated run:
+- SQLite auth DB was copied to migration_backup_* folders by backup_baseline.ps1.
+- manifest_before.txt may be empty or contain errors if PostgreSQL was not running locally.
+- pg_dump requires PostgreSQL client tools on PATH (https://www.postgresql.org/download/windows/).
+
+To finish:
+1) Start your local Postgres (or skip local dump and restore only to Supabase from an existing .dump file).
+2) Install pg_dump/pg_restore/psql on PATH, OR use Supabase-only path with a dump created elsewhere.
+3) Create Supabase project; set $env:SUPABASE_DATABASE_URL; run:
+   .\scripts\migration\complete_migration.ps1 -SupabaseRestore
